@@ -1,0 +1,266 @@
+/*搜索栏*/
+body {
+    width: 100%;
+    position: relative;
+
+    /*免费下载*/
+    .mb {
+        width: 100%;
+        position: fixed;
+        bottom: 0.1rem;
+        display: flex;
+        height: 5rem;
+        background-color: rgba(102, 102, 102, 0.4);
+
+        .m_a {
+            flex: 1;
+            width: 2rem;
+            height: 2rem;
+
+            img {
+                width: 2rem;
+                height: 2rem;
+            }
+        }
+
+        .m_b {
+            flex: 3;
+            display: flex;
+            align-items: center;
+
+            img {
+
+                width: 2.5rem;
+                height: 2.5rem;
+            }
+
+            .m_z {
+
+                padding-left: 8%;
+
+                p {
+                    color: white;
+
+                    &:nth-of-type(1) {
+                        font-size: 2rem;
+                    }
+                }
+            }
+        }
+
+        .bt {
+            flex: 2;
+            color: white;
+            font-size: 2rem;
+            background-color: rgb(255, 138, 0);
+            border: 0;
+        }
+
+    }
+}
+
+.box {
+    margin: 0 auto;
+    max-width: 625px;
+    min-width: 300px;
+
+
+    .top {
+        width: 100%;
+        height: 26rem;
+        position: relative;
+        background: url(../img/index/banner.png) no-repeat;
+        background-size: 100%;
+        display: flex;
+        justify-content: center;
+
+        input {
+            position: absolute;
+            bottom: 0.8rem;
+            text-indent: 3rem;
+            width: 80%;
+            height: 4rem;
+            border: 3px solid black;
+            font-size: 1rem;
+            border-radius: 0.3rem;
+            background: url(../img/index/seach.jpg) no-repeat 1rem center;
+            background-size: 1.8rem;
+            background-color: rgb(255, 255, 255);
+        }
+    }
+
+    /*内容*/
+    .main {
+
+        background-color: rgb(245, 245, 245);
+        display: flex;
+        flex-direction: column;
+
+        /*房子种类*/
+        .ul_a {
+            display: flex;
+            justify-content: space-around;
+            background-color: rgb(255, 138, 0);
+            padding: 3% 0;
+
+            li {
+                display: flex;
+                justify-content: space-between;
+                text-align: center;
+                flex-direction: column;
+                font-size: 1rem;
+                color: white;
+
+                img {
+                    width: 5rem;
+                    height: 5rem;
+                }
+            }
+
+        }
+
+        .ban2 {
+            width: 100%;
+            margin: 3% 0;
+
+            img {
+                width: 100%;
+            }
+        }
+
+        /*热门*/
+        .hot {
+            width: 100%;
+
+
+            h2 {
+                width: 100%;
+                padding: 3% 5%;
+                color: white;
+                font-size: 2rem;
+                background-color: rgb(255, 138, 0);
+
+                span {
+                    font-size: 1.2rem;
+                }
+            }
+
+            .ul_b {
+                padding: 5% 5%;
+                background-color: white;
+
+                li {
+
+                    display: flex;
+                    justify-content: space-around;
+                    padding: 5% 0;
+                    border-bottom: 1px red solid;
+
+                    .left {
+                        width: 10rem;
+                        height: 10rem;
+                        flex: 1;
+                        display: flex;
+                        align-items: center;
+                        margin-right: 1%;
+
+                        img {
+                            width: 8rem;
+                            height: 8rem;
+                        }
+                    }
+
+                    .right {
+                        flex: 3;
+                        display: flex;
+                        flex-direction: column;
+
+                        h3 {
+                            width: 21rem;
+                            overflow: hidden;
+                            font-size: 2rem;
+                            white-space: nowrap;
+                            text-overflow: ellipsis;
+                        }
+
+                        p {
+                            padding: 3% 0;
+                            display: flex;
+                            justify-content: space-between;
+                            font-size: 1rem;
+
+                            .ys {
+                                color: rgb(255, 138, 0);
+                            }
+
+                            &:nth-of-type(2) {
+                                color: #ccc;
+                            }
+                        }
+
+                        h4 {
+                            display: flex;
+
+                            span {
+                                display: block;
+                                width: 5rem;
+                                height: 2rem;
+                                line-height: 2rem;
+                                text-align: center;
+                                border: 1px solid rgb(132, 154, 174);
+                                color: rgb(132, 154, 174);
+                                background-color: rgb(244, 247, 249);
+                                margin-right: 2%;
+                            }
+                        }
+                    }
+
+                }
+            }
+        }
+
+        /*分栏*/
+        .subfield {
+            width: 100%;
+            margin-top: 2%;
+            background-color: white;
+
+            p {
+                height: 5rem;
+                display: flex;
+                text-align: center;
+                line-height: 5rem;
+                border-bottom: 1px solid rgb(255, 138, 0);
+
+                a {
+                    color: rgb(102, 102, 102);
+                    width: 50%;
+                    font-size: 1.8rem;
+                    height: 5rem;
+
+                    &:nth-of-type(1) {
+                        color: rgb(255, 138, 0);
+                        border-bottom: 2px solid rgb(255, 138, 0);
+                    }
+                }
+            }
+
+            .fl {
+                display: flex;
+                padding: 0 5%;
+
+                .ul_c {
+
+                    padding: 2% 0;
+                    width: 50%;
+
+                    li {
+                        padding: 2% 0;
+                        font-size: 1.8rem;
+                        color: #ccc;
+                    }
+                }
+            }
+        }
+    }
+}

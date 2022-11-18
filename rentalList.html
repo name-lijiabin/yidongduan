@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/public.css">
+    <link rel="stylesheet" href="./css/rentalList.css">
+
+</head>
+
+<body>
+    <!-- 头部 -->
+    <header>
+        <a href="./index.html"><img src="./img/index/logo.jpg" alt=""></a>
+        <span><a href="./my.html"><img src="./img/index/my.jpg" alt=""></a>
+            <a><img src="./img/index/xiazai.jpg" alt=""></a></span>
+    </header>
+    <!-- 内容 -->
+    <div class="box">
+        <h4>
+            <a href="./index.html">首页></a>
+            <a href="./rentaDetails.html"><span>北京租房</span></a>
+        </h4>
+        <!-- 搜索框 -->
+        <div class="search">
+            <input type="search">
+            <span>|</span>
+            <span><img src="./img/SecondHandList/search_03.png" alt=""></span>
+        </div>
+        <!-- 类型 -->
+        <div class="type" id="t_a">
+            <div class="mb"></div>
+            <!-- 初始界面 -->
+            <ul class="list">
+                <li>
+                    <div class="dj " id="a">
+                        <a>区域</a>
+                        <!-- 箭头 -->
+                        <!-- 点击添加bs改变方向颜色 -->
+                        <span class="t_s"></span>
+                    </div>
+
+                </li>
+                <li>
+                    <div class="dj" id="b">
+                        <a>月租</a>
+                        <!-- 箭头 -->
+                        <span class="t_s"></span>
+                    </div>
+                </li>
+                <li>
+                    <div class="dj" id="c">
+                        <a>房型</a>
+                        <!-- 箭头 -->
+                        <span class="t_s"></span>
+                    </div>
+                </li>
+                <li>
+                    <div class="dj" id="d">
+                        <a>更多</a>
+                        <!-- 箭头 -->
+                        <span class="t_s"></span>
+                    </div>
+                </li>
+            </ul>
+            <!-- 点击执行界面 -->
+            <ul class="ul_a">
+                <!-- 区域 -->
+                <li class="lis">
+                    <div class="lis_a">
+                        <p class="ys">区域</p>
+                        <p>地铁</p>
+                    </div>
+                    <div class="lir">
+                        <ul>
+                            <li>附近</li>
+                            <li class="ys">朝阳</li>
+                            <li>安贞</li>
+                            <li>不限</li>
+                            <li>奥林 匹克</li>
+                            <li class="ys">公园</li>
+                            <li>百子湾</li>
+                            <li>昌平</li>
+                            <li>海淀北</li>
+                            <li>CBD</li>
+                            <li class="">附近</li>
+                            <li>朝阳</li>
+                            <li>安贞</li>
+                            <li>不限</li>
+                        </ul>
+                    </div>
+                </li>
+
+                <!-- 价格 -->
+                <li class="lis">
+                    <ul class="price">
+                        <li>不限</li>
+                        <li>100万以下</li>
+                        <li>100万-150万</li>
+                        <li>150万-200万</li>
+                        <li>200万-250万</li>
+                        <li>250万-300万</li>
+                        <li>自定义价格</li>
+                    </ul>
+                </li>
+
+                <!-- 房型 -->
+                <li class="lis">
+                    <ul class="house">
+                        <li>不限 <span> <input type="checkbox"></span></li>
+                        <li>1室 <span><input type="checkbox"></span></span></li>
+                        <li>2室 <span><input type="checkbox"></span></span></li>
+                        <li>3室 <span><input type="checkbox"></span></span></li>
+                        <li>4室 <span><input type="checkbox"></span></span></li>
+                        <li>5室 <span><input type="checkbox"></span></span></li>
+                        <li><button>
+                                确定
+                            </button></li>
+                    </ul>
+                </li>
+
+
+                <!-- 更多 -->
+                <li class="lis">
+                    <div class="top_a">
+                        <h3>区域</h3>
+                        <ul>
+                            <li>南</li>
+                            <li>东</li>
+                            <li>南</li>
+                            <li>北</li>
+                            <li>西</li>
+                        </ul>
+                    </div>
+                    <div class="top_a">
+                        <h3>面积（平方）</h3>
+                        <ul>
+                            <li>50以下</li>
+                            <li>50-70</li>
+                            <li>70-90</li>
+                            <li>90-110</li>
+                            <li>110-130</li>
+                            <li>130-150</li>
+                            <li>150-200</li>
+                            <li>200以上</li>
+
+                        </ul>
+                    </div>
+                    <div class="top_a">
+                        <h3>标签</h3>
+                        <ul>
+                            <li>
+                                <span>学区房</span>
+
+                            </li>
+                            <li>地铁房</li>
+                            <li>不限购</li>
+                            <li>满两年</li>
+                            <li>满五唯一</li>
+                            <li>降价</li>
+                            <li>新上</li>
+                            <li>独家</li>
+                            <li>有钥匙</li>
+                        </ul>
+                    </div>
+                    <div class="top_a">
+                        <h3>楼龄</h3>
+                        <ul>
+                            <li>5年以内</li>
+                            <li>10年以内</li>
+                            <li>15年以内</li>
+                            <li>20年以内</li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+
+
+        <div class="con">
+            <a href="./rentaDetails.html">
+                <ul class="ul_a">
+                    <li>
+                        <div class="left">
+                            <img src="./img/rentalList/img1.png" alt="">
+                        </div>
+                        <div class="right">
+                            <h2>南沙滩小区 超低价急售</h2>
+                            <p>2室1厅 96㎡ 南北</p>
+                            <p>青岛新天地</p>
+                            <p class="p_d">
+                                <span>集中供暖</span>
+                                <span>3700元/月</span>
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="left">
+                            <img src="./img/rentalList/img2.png" alt="">
+                        </div>
+                        <div class="right">
+                            <h2>青年汇二期 免税三居</h2>
+                            <p>3室2厅 129㎡ 南北</p>
+                            <p>青年汇家园</p>
+                            <p class="p_d">
+                                <span>集中供暖</span>
+                                <span>6200元/月</span>
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="left">
+                            <img src="./img/rentalList/img3.png" alt="">
+                        </div>
+                        <div class="right">
+                            <h2>博雅德源稀缺两居 钥匙房源</h2>
+                            <p>2室2厅 126m² 南北</p>
+                            <p>西二旗</p>
+                            <p class="p_d">
+                                <span>天然气供暖</span>
+                                <span>6620元/月</span>
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="left">
+                            <img src="./img/rentalList/img4.png" alt="">
+                        </div>
+                        <div class="right">
+                            <h2>朝阳北路赠车库自住首选</h2>
+                            <p>5室3厅 260m² 南北</p>
+                            <p>武夷花园二手房</p>
+                            <p class="p_d">
+                                <span>集中供暖</span>
+                                <span>5400元/月</span>
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="left">
+                            <img src="./img/rentalList/img5.png" alt="">
+                        </div>
+                        <div class="right">
+                            <h2>金汉旭城 东南金角一居</h2>
+                            <p>1室1厅 60m² 东南</p>
+                            <p>鲁谷二手房</p>
+                            <p class="p_d">
+                                <span>集中供暖</span>
+                                <span>300元/月</span>
+                            </p>
+                        </div>
+                    </li>
+
+                </ul>
+            </a>
+        </div>
+    </div>
+    <!-- 底部 -->
+    <footer>
+        <h1>北京找房无忧>首页</h1>
+        <div class="f_a">
+            <div class="f_b">
+                <img src="./img/index/apple.png" alt="">
+                <div class="b_a">
+                    <span>iPhone</span>
+                    <span>客户端</span>
+                </div>
+            </div>
+            <div class="f_b">
+                <img src="./img/index/android.png" alt="">
+                <div class="b_a">
+                    <span>Android</span>
+                    <span>客户端</span>
+                </div>
+            </div>
+        </div>
+        <div class="f_w">
+            <p>北京找房无忧房地产经纪公司</p>
+            <p> 网络经营许可证京ICP备20160812号</p>
+        </div>
+    </footer>
+</body>
+
+</html>
+<script src="./js/setRem.js"></script>
+<script src="./js/rentalList.js"></script>
+<script src="./js/touch-0.2.14.min.js"></script>

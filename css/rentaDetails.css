@@ -1,0 +1,176 @@
+body {
+  background-color: #f5f5f5;
+}
+.ban {
+  width: 100%;
+  position: relative;
+}
+.ban img {
+  width: 100%;
+}
+.ban span {
+  position: absolute;
+  right: 0;
+  bottom: 1.2rem;
+  border-radius: 0.2rem 0 0 0.2rem;
+  padding: 3% 4%;
+  font-size: 1.6rem;
+  background-color: #27251f;
+  color: white;
+}
+.box {
+  background-color: #f5f5f5;
+  /*种类*/
+  /*详解*/
+}
+.box h2 {
+  height: 8rem;
+  margin-top: 1%;
+  width: 100%;
+  display: flex;
+  font-size: 2rem;
+  padding: 0 3%;
+  align-items: center;
+  border-bottom: 1px #ccc solid;
+  background-color: white;
+}
+.box h2 span {
+  display: flex;
+  height: 8rem;
+  align-items: center;
+}
+.box h2 span:nth-of-type(1) {
+  width: 80%;
+  border-right: 1px solid #ccc;
+}
+.box h2 span:nth-of-type(2) {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 20%;
+  padding-top: 2%;
+}
+.box h2 span:nth-of-type(2) img {
+  width: 3rem;
+  height: 3rem;
+}
+.box h2 span:nth-of-type(2) a {
+  color: #666666;
+  font-size: 1.6rem;
+}
+.box .ty_l {
+  padding: 5% 3%;
+  display: flex;
+  justify-content: space-between;
+}
+.box .ty_l .l_l {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.box .ty_l .l_l:nth-of-type(2) {
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+}
+.box .ty_l .l_l span {
+  font-size: 1.2rem;
+}
+.box .ty_l .l_l span:nth-of-type(2) {
+  margin-top: 3%;
+  color: #ff8a00;
+}
+.box .xj {
+  background-color: white;
+  padding: 0 5%;
+}
+.box .xj li {
+  padding: 5% 0;
+  font-size: 1.6rem;
+  display: flex;
+  border-bottom: 1px solid #ccc;
+}
+.box .xj li span {
+  flex: 1;
+}
+.box .fp {
+  width: 90%;
+  margin: 2% auto;
+  background-color: white;
+}
+.box .fp P {
+  padding: 5%;
+  display: flex;
+  border-bottom: 1px #ccc solid;
+  justify-content: space-between;
+  color: #ff8a00;
+}
+.box .fp P span {
+  font-size: 2rem;
+  font-weight: 600;
+}
+.box .fp P span img {
+  width: 1rem;
+  height: 1.5rem;
+}
+.box .fp .wz {
+  padding: 3%;
+  font-size: 1.5rem;
+}
+.box .fp .wz .cone {
+  border: 1px solid #ccc;
+}
+.box .fp .wz .cone h3 {
+  padding: 1%;
+  font-size: 1.5rem;
+  border-bottom: #ccc 1px solid;
+}
+.box .fp .wz .cone img {
+  width: 100%;
+}
+.box .fp .wz h5 {
+  padding: 3% 0;
+  font-size: 1.6rem;
+  font-weight: 100;
+  color: gray;
+}
+.box .di {
+  width: 100%;
+  padding: 2% 3%;
+  background-color: white;
+  display: flex;
+}
+.box .di .lef {
+  flex: 3;
+  display: flex;
+}
+.box .di .lef img {
+  width: 4rem;
+  height: 4rem;
+}
+.box .di .lef .zs {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.4rem;
+  padding-left: 5%;
+}
+.box .di .righ {
+  flex: 2;
+  display: flex;
+  justify-content: space-around;
+}
+.box .di .righ img {
+  width: 3rem;
+  height: 3rem;
+}
+.box .di .righ .ri_a {
+  display: flex;
+  font-size: 1.2rem;
+  flex-direction: column;
+}
+.box .di .righ .ri_a:nth-of-type(1) {
+  color: #5dcb96;
+}
+.box .di .righ .ri_a:nth-of-type(2) {
+  color: #5baede;
+}

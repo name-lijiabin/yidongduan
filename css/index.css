@@ -1,0 +1,217 @@
+/*搜索栏*/
+body {
+  width: 100%;
+  position: relative;
+  /*免费下载*/
+}
+body .mb {
+  width: 100%;
+  position: fixed;
+  bottom: 0.1rem;
+  display: flex;
+  height: 5rem;
+  background-color: rgba(102, 102, 102, 0.4);
+}
+body .mb .m_a {
+  flex: 1;
+  width: 2rem;
+  height: 2rem;
+}
+body .mb .m_a img {
+  width: 2rem;
+  height: 2rem;
+}
+body .mb .m_b {
+  flex: 3;
+  display: flex;
+  align-items: center;
+}
+body .mb .m_b img {
+  width: 2.5rem;
+  height: 2.5rem;
+}
+body .mb .m_b .m_z {
+  padding-left: 8%;
+}
+body .mb .m_b .m_z p {
+  color: white;
+}
+body .mb .m_b .m_z p:nth-of-type(1) {
+  font-size: 2rem;
+}
+body .mb .bt {
+  flex: 2;
+  color: white;
+  font-size: 2rem;
+  background-color: #ff8a00;
+  border: 0;
+}
+.box {
+  margin: 0 auto;
+  max-width: 625px;
+  min-width: 300px;
+  /*内容*/
+}
+.box .top {
+  width: 100%;
+  height: 26rem;
+  position: relative;
+  background: url(../img/index/banner.png) no-repeat;
+  background-size: 100%;
+  display: flex;
+  justify-content: center;
+}
+.box .top input {
+  position: absolute;
+  bottom: 0.8rem;
+  text-indent: 3rem;
+  width: 80%;
+  height: 4rem;
+  border: 3px solid black;
+  font-size: 1rem;
+  border-radius: 0.3rem;
+  background: url(../img/index/seach.jpg) no-repeat 1rem center;
+  background-size: 1.8rem;
+  background-color: #ffffff;
+}
+.box .main {
+  background-color: #f5f5f5;
+  display: flex;
+  flex-direction: column;
+  /*房子种类*/
+  /*热门*/
+  /*分栏*/
+}
+.box .main .ul_a {
+  display: flex;
+  justify-content: space-around;
+  background-color: #ff8a00;
+  padding: 3% 0;
+}
+.box .main .ul_a li {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  flex-direction: column;
+  font-size: 1rem;
+  color: white;
+}
+.box .main .ul_a li img {
+  width: 5rem;
+  height: 5rem;
+}
+.box .main .ban2 {
+  width: 100%;
+  margin: 3% 0;
+}
+.box .main .ban2 img {
+  width: 100%;
+}
+.box .main .hot {
+  width: 100%;
+}
+.box .main .hot h2 {
+  width: 100%;
+  padding: 3% 5%;
+  color: white;
+  font-size: 2rem;
+  background-color: #ff8a00;
+}
+.box .main .hot h2 span {
+  font-size: 1.2rem;
+}
+.box .main .hot .ul_b {
+  padding: 5% 5%;
+  background-color: white;
+}
+.box .main .hot .ul_b li {
+  display: flex;
+  justify-content: space-around;
+  padding: 5% 0;
+  border-bottom: 1px red solid;
+}
+.box .main .hot .ul_b li .left {
+  width: 10rem;
+  height: 10rem;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  margin-right: 1%;
+}
+.box .main .hot .ul_b li .left img {
+  width: 8rem;
+  height: 8rem;
+}
+.box .main .hot .ul_b li .right {
+  flex: 3;
+  display: flex;
+  flex-direction: column;
+}
+.box .main .hot .ul_b li .right h3 {
+  width: 21rem;
+  overflow: hidden;
+  font-size: 2rem;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.box .main .hot .ul_b li .right p {
+  padding: 3% 0;
+  display: flex;
+  justify-content: space-between;
+  font-size: 1rem;
+}
+.box .main .hot .ul_b li .right p .ys {
+  color: #ff8a00;
+}
+.box .main .hot .ul_b li .right p:nth-of-type(2) {
+  color: #ccc;
+}
+.box .main .hot .ul_b li .right h4 {
+  display: flex;
+}
+.box .main .hot .ul_b li .right h4 span {
+  display: block;
+  width: 5rem;
+  height: 2rem;
+  line-height: 2rem;
+  text-align: center;
+  border: 1px solid #849aae;
+  color: #849aae;
+  background-color: #f4f7f9;
+  margin-right: 2%;
+}
+.box .main .subfield {
+  width: 100%;
+  margin-top: 2%;
+  background-color: white;
+}
+.box .main .subfield p {
+  height: 5rem;
+  display: flex;
+  text-align: center;
+  line-height: 5rem;
+  border-bottom: 1px solid #ff8a00;
+}
+.box .main .subfield p a {
+  color: #666666;
+  width: 50%;
+  font-size: 1.8rem;
+  height: 5rem;
+}
+.box .main .subfield p a:nth-of-type(1) {
+  color: #ff8a00;
+  border-bottom: 2px solid #ff8a00;
+}
+.box .main .subfield .fl {
+  display: flex;
+  padding: 0 5%;
+}
+.box .main .subfield .fl .ul_c {
+  padding: 2% 0;
+  width: 50%;
+}
+.box .main .subfield .fl .ul_c li {
+  padding: 2% 0;
+  font-size: 1.8rem;
+  color: #ccc;
+}

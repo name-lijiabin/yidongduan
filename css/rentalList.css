@@ -1,0 +1,327 @@
+.box {
+  margin: 0 auto;
+  max-width: 625px;
+  min-width: 300px;
+  background-color: #f5f5f5;
+  /*搜索框*/
+}
+.box h4 {
+  height: 4rem;
+  line-height: 4rem;
+  font-size: 1.5rem;
+  background-color: white;
+  text-indent: 2rem;
+  border-bottom: 1px solid #ccc;
+}
+.box h4 a {
+  color: black;
+}
+.box h4 span {
+  color: #353232;
+  font-weight: 400;
+}
+.box .search {
+  width: 90%;
+  height: 4rem;
+  border: 1px solid #ccc;
+  margin: 1rem auto;
+  display: flex;
+  align-items: center;
+  background-color: white;
+  padding-right: 5%;
+}
+.box .search input {
+  width: 80%;
+  height: 3.9rem;
+  line-height: 4rem;
+  text-indent: 1rem;
+  color: pink;
+  font-size: 1.6rem;
+  border: 0;
+  outline: none;
+}
+.box .search span {
+  font-size: 2rem;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.box .search span img {
+  width: 2rem;
+  height: 2rem;
+}
+.box .type {
+  width: 100%;
+  height: 4rem;
+  display: flex;
+  padding: 0 5%;
+  position: relative;
+  border: 1px solid #ccc;
+  background-color: white;
+}
+.box .type .list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  font-size: 1.6rem;
+  margin: 0;
+  position: relative;
+}
+.box .type .list .t_s {
+  display: block;
+  position: absolute;
+  top: 1.5rem;
+  left: 5rem;
+  font-size: 2rem;
+  border-bottom: 10px solid white;
+  border-top: 10px solid #ccc;
+  border-right: 10px solid white;
+  border-left: 10px solid white;
+}
+.box .type .list .t_s:hover {
+  cursor: pointer;
+}
+.box .type .list li {
+  position: relative;
+  flex: 1;
+}
+.box .type .list li a {
+  font-size: 2rem;
+}
+.box .type .list li .dj {
+  text-align: center;
+  line-height: 2rem;
+  font-size: 1.8rem;
+  font-weight: 900;
+  height: 2rem;
+  position: relative;
+  color: #666666;
+}
+.box .type .list li .dj a {
+  padding: 1%;
+  font-size: 2rem;
+}
+.box .type .list li .dj a:hover {
+  cursor: pointer;
+}
+.box .type .list li .dj span {
+  z-index: 2;
+  display: block;
+  position: absolute;
+  top: 0.2rem;
+  left: 8rem;
+  font-size: 2rem;
+  border-bottom: 10px solid white;
+  border-top: 10px solid #ccc;
+  border-right: 10px solid white;
+  border-left: 10px solid white;
+}
+.box .type .list li .dj span:hover {
+  cursor: pointer;
+}
+.box .type .ul_a {
+  margin-top: 0;
+  background-color: white;
+}
+.box .type .ul_a .lis:nth-of-type(1) {
+  z-index: 10;
+  width: 100%;
+  position: absolute;
+  top: 3.5rem;
+  left: 0rem;
+  overflow: hidden;
+  display: none;
+}
+.box .type .ul_a .lis:nth-of-type(1) .lis_a {
+  float: left;
+  width: 20%;
+  height: 28rem;
+  background: #bbb9b9;
+  font-size: 2rem;
+}
+.box .type .ul_a .lis:nth-of-type(1) .lis_a p {
+  text-align: center;
+}
+.box .type .ul_a .lis:nth-of-type(1) .lis_a p:nth-of-type(1) {
+  width: 100%;
+  color: #ff8a00;
+  background: white;
+}
+.box .type .ul_a .lis:nth-of-type(1) .lir {
+  float: left;
+  width: 80%;
+  background-color: white;
+}
+.box .type .ul_a .lis:nth-of-type(1) .lir > ul > li {
+  font-size: 1.6rem;
+  float: left;
+  width: 50%;
+  height: 4rem;
+  text-align: center;
+  line-height: 4rem;
+}
+.box .type .ul_a .lis:nth-of-type(1) .lir > ul .color {
+  color: #ff8a00;
+}
+.box .type .ul_a .lis:nth-of-type(2) {
+  z-index: 10;
+  display: none;
+  width: 100%;
+  position: absolute;
+  top: 3.5rem;
+  left: 0rem;
+  overflow: hidden;
+}
+.box .type .ul_a .lis:nth-of-type(2) .price {
+  background-color: white;
+}
+.box .type .ul_a .lis:nth-of-type(2) .price li {
+  font-size: 1.4rem;
+  height: 4rem;
+  line-height: 4rem;
+  border-bottom: 0.1rem solid #ccc;
+  margin-left: 2.5rem;
+  margin-right: 2.5rem;
+}
+.box .type .ul_a .lis:nth-of-type(3) {
+  z-index: 10;
+  width: 100%;
+  position: absolute;
+  top: 3.5rem;
+  left: 0rem;
+  overflow: hidden;
+  display: none;
+}
+.box .type .ul_a .lis:nth-of-type(3) .house {
+  background-color: white;
+}
+.box .type .ul_a .lis:nth-of-type(3) .house li {
+  font-size: 1.4rem;
+  height: 4.5rem;
+  line-height: 4.5rem;
+  border-bottom: 0.1rem solid #ccc;
+  margin-left: 2.5rem;
+  margin-right: 2.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+.box .type .ul_a .lis:nth-of-type(3) .house li button {
+  width: 80%;
+  margin: 1% auto;
+  text-align: center;
+  padding: 2%;
+  font-size: 1rem;
+  background-color: #ff8a00;
+  color: white;
+  border: 0;
+}
+.box .type .ul_a .lis:nth-of-type(4) {
+  z-index: 10;
+  width: 100%;
+  position: absolute;
+  top: 3.5rem;
+  left: 0rem;
+  overflow: hidden;
+  background-color: white;
+  display: none;
+}
+.box .type .ul_a .lis:nth-of-type(4) .top_a {
+  padding: 0 2.5rem;
+}
+.box .type .ul_a .lis:nth-of-type(4) .top_a h3 {
+  font-size: 1.6rem;
+}
+.box .type .ul_a .lis:nth-of-type(4) .top_a ul {
+  border-bottom: 0.1rem solid #ccc;
+  overflow: hidden;
+}
+.box .type .ul_a .lis:nth-of-type(4) .top_a ul li {
+  float: left;
+  width: 22%;
+  border: 1px solid #cccccc;
+  text-align: center;
+  margin-right: 0.8rem;
+  margin-bottom: 1.2rem;
+  height: 2.5rem;
+  line-height: 2.5rem;
+  font-size: 1.2rem;
+}
+.box .ys {
+  position: relative;
+  color: #ff8a00;
+}
+.box .ys .bs {
+  z-index: 1;
+  border-bottom: 10px solid #ff8a00;
+  border-top: 10px solid white;
+  border-right: 10px solid white;
+  border-left: 10px solid white;
+  position: absolute;
+  top: 0rem;
+  left: 5rem;
+}
+.box .mb {
+  width: 100%;
+  height: 80rem;
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 4.5rem;
+  left: 0;
+  z-index: 2;
+  display: none;
+}
+.box .con {
+  padding: 0 5%;
+}
+.box .con a {
+  color: gray;
+}
+.box .con a .ul_a {
+  padding: 3% 0;
+}
+.box .con a .ul_a li {
+  display: flex;
+  padding: 4% 0;
+  border-bottom: 1px solid red;
+}
+.box .con a .ul_a li .left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+}
+.box .con a .ul_a li .left img {
+  width: 7rem;
+  height: 7rem;
+}
+.box .con a .ul_a li .right {
+  padding-left: 2%;
+  flex: 3;
+}
+.box .con a .ul_a li .right P {
+  padding: 1% 0;
+  font-size: 1.4rem;
+}
+.box .con a .ul_a li .right P:nth-of-type(1) {
+  margin-top: 3%;
+}
+.box .con a .ul_a li .right P:nth-of-type(3) {
+  display: flex;
+  justify-content: space-between;
+}
+.box .con a .ul_a li .right P:nth-of-type(3) span {
+  display: block;
+  color: #6da719;
+  font-size: 1.2rem;
+  padding: 1%;
+  border: 1px solid #6da719;
+}
+.box .con a .ul_a li .right P:nth-of-type(3) span:nth-of-type(2) {
+  color: #ff8a00;
+  border: 0;
+}
+.col {
+  color: #ff8a00;
+}
